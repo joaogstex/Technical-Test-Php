@@ -24,8 +24,8 @@ It should also display user data in a paginated table, using either CSS or CSS f
 
 # Setting the Route
 
-Defines two GET routes to the application root in Laravel. The first route returns the 'index' view when accessed. 
-The second route calls the 'index' method of the 'UserController' controller when accessed. However, since both routes have the same path, only the second route will actually be registered and used.
+Defines one GET route to the application root in Laravel. 
+The route calls the 'index' method of the 'UserController' controller when accessed.
 
 ```php
 Route::get('/', function () {
