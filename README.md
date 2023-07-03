@@ -28,9 +28,6 @@ Defines one GET route to the application root in Laravel.
 The route calls the 'index' method of the 'UserController' controller when accessed.
 
 ```php
-Route::get('/', function () {
-    return view('index');
-});
 
 Route::get('/', [UserController::class, 'index']);
 ```
